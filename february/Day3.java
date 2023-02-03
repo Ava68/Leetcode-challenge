@@ -1,3 +1,7 @@
+https://leetcode.com/problems/zigzag-conversion/submissions/890566503/
+
+zig-zag conversion
+
 class Solution {
     public String convert(String s, int numRows) {
        if(numRows == 1)
