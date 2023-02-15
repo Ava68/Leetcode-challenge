@@ -7,14 +7,20 @@ class Solution {
       int i =num.length-1;
       
       int sum =k;
-      while(i >=0 || sum>0)
+      while(i >=0)
        {
-           if(i >=0)
-               sum += num[i];
+        
+            sum += num[i];
             ans.add(0,sum % 10);
             sum = sum /10;
             i--;
        }
+       while(sum > 0)
+       {
+           ans.add(0,sum%10);
+           sum = sum / 10;
+       }
+        
        return ans;
     }
 }
