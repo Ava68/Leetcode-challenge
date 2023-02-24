@@ -4,6 +4,9 @@ step 2 -> pop max ele from heap diff = Math.min(diff,max-min)
 and add  pQueue.add(max/2); do this untill every even element is exhausted from the queue.
 
 */
+
+https://leetcode.com/problems/minimize-deviation-in-array/description/
+
 class Solution {
     public int minimumDeviation(int[] nums) {
         PriorityQueue<Integer> pQueue
